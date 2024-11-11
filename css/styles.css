@@ -1,0 +1,318 @@
+@import url("reset.css");
+@import url("common.css");
+
+
+.section-header{
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.section .header{
+   
+}
+
+.header-container{
+    padding: 16px 32px;
+    position: absolute;
+
+ 
+        width: 100%;
+        z-index: 30;
+
+}
+
+.header-nav {
+    display: flex;
+}
+
+.logo-link {}
+
+.logo-icon {}
+
+.header-menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    gap: 64px;
+}
+
+.header-menu-item {}
+
+.header-menu-link {
+    font-weight: 700;
+
+    font-size: 18px;
+}
+
+.section .hero{
+}
+
+.section.hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/hero.jpg')
+}
+
+.hero-btn {
+    font-family: var(--font-non-descriptions);
+
+    border-radius: 4px;
+
+    color: var(--text-general-color);
+    background: var(--button-color);
+    display: inline-flex;
+    padding: 16px 52px;
+    align-items: center;
+    gap: 8px;
+    transition: all var(--transition);
+}
+
+.hero-btn:is(:active) {
+    border: 1px solid var(--text-general-color);
+    background-color: transparent;
+    ;
+}
+
+.hero-btn:is(:hover, :focus) {
+    transform: scale(1.09)
+}
+
+.hero-heading {
+    font-family: var(--font-non-descriptions);
+    font-weight: 400;
+        font-size: 48px;
+        line-height: 1.4;
+        letter-spacing: 0.01em;
+        margin-bottom: 0;
+
+    
+}
+
+.ukraine {
+    font-size: 128px;
+    display: block;
+    position: relative;
+    top: -35px;
+}
+
+.hero-btn{
+    display: block;
+}
+
+.hero-social-list {}
+
+.hero-social-item {}
+
+.hero-social-link {}
+
+.hero-social-icon {}
+
+.about-us {}
+
+.section-header {
+    font-family: var(--font-non-descriptions);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+}
+
+.about-us-container{
+    padding: 171px 208px 264px 208px;
+    background-image: url('../images/about-us-ukraine-trace.png');
+    background-repeat: no-repeat;
+    background-size: 1024px, contain;
+    background-position: center;
+}
+
+.about-us-text{
+    display: flex;
+    gap: 31px;
+}
+
+.about-us-left {
+    flex-basis: 497px;
+
+}
+.about-us-right {
+    flex-basis: 497px;
+}
+
+
+.our-tours-container{
+    padding: 0;
+    margin: 0;
+    
+   
+}
+
+.tours-list {
+    display: flex;
+    gap: 32px
+}
+
+
+
+.tours-item {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll-button.tours {
+    
+
+}
+
+
+
+.tours-item:nth-child(even)>*:not(.tours-image) {
+    padding-right: 32px;
+    padding-left: 0;
+}
+
+
+.tours-item:nth-child(odd)>*:not(.tours-image) {
+    padding-left: 32px;
+    padding-right: 0;
+}
+
+.tours-image {
+    width: 704px;
+}
+
+.scroll-button {}
+
+
+.tour-name {
+    font-family: var(--font-non-descriptions);
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 106px;
+    margin-bottom: 32px;
+}
+
+.tour-agenda {}
+
+.tour-agenda-list {}
+
+.tour-agenda-item {}
+
+.tour-included-subtitle{
+    font-family: var(--font-non-descriptions);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.tour-included-list {}
+
+.tour-included-item {}
+
+.included-icon-container {}
+
+.included-icon {}
+
+.tour-included-text {}
+
+.tour-btn{
+    font-familty:var(--font-non-descriptions);
+}
+
+.tour-btn:hover{
+    background-color: var(--background-color);
+    border: 1px solid var(--text-general-color);
+    color: var(--text-general-color);
+}
+
+
+
+.tour-price {
+    font-family: var(--font-non-descriptions);
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.gryvnas-amt {}
+
+.gallery-list {}
+
+.gallery-item {}
+
+.gallery-image {}
+
+
+.reviews-list {}
+
+.reviews-item {}
+
+.review-header {}
+
+.review-image {}
+
+.review-person-name {
+    font-family: var(--font-non-descriptions);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.review-text {}
+
+.scrolling-arrows {}
+
+.section.footer{
+    font-family: var(--font-non-descriptions);
+    font-weight: 400;
+}
+
+.form {}
+
+.form-description {}
+
+.form-subtitle {
+    font-family: var(--font-non-descriptions);
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.top {}
+
+.logo {}
+
+.footer-menu-list {}
+
+.footer-menu-item {}
+
+.footer-menu-link {}
+
+.footer-contacts {}
+
+.footer-contacts-list {}
+
+.footer-contancs-item {}
+
+.footer-social-list {}
+
+.footer-social-item {}
+
+.footer-social-link {}
+
+.footer-social-icon {}
+
+.footer {}
+
+.-social-icon {}
+
+.copyrights {}
