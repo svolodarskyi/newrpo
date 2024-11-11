@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--normalizer for cross brouser compatability-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jomolhari&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css " />
+    <title>Wonders of Ukraine</title>
+  </head>
+  <body>
+    <header class="section header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <div class="logo">
+            <a class="logo-link" href="./index.html">
+              <img
+                width="64"
+                height="46"
+                src="./images/logo-header.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="#about-us">About us</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="#tours">Tours</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section hero">
+        <h1 class="hero-heading">
+          Unlock the Wonders <br />
+          of<span class="ukraine"> Ukraine</span>
+        </h1>
+        <a class="hero-btn" href="#our-tours">Our tours</a>
+        <ul class="hero-social-list">
+          <li class="hero-social-item">
+            <a class="hero-social-link" href=""> </a>
+          </li>
+          <li class="hero-social-item">
+            <a class="hero-social-link" href=""> </a>
+          </li>
+          <li class="hero-social-item">
+            <a class="hero-social-link" href=""> </a>
+          </li>
+        </ul>
+      </section>
+      <section class="section about-us">
+        <div class="container about-us-container">
+          <h2 class="section-header">About us</h2>
+          <div class="about-us-text">
+            <div class="about-us-left">
+              <p>
+                Welcome to our travel agency in Ukraine! We are a locally owned
+                and operated travel agency that specializes in creating unique
+                and unforgettable travel experiences for our clients. Our team
+                of experienced travel professionals is dedicated to providing
+                personalized service to help you plan your dream vacation. We
+                have extensive knowledge of Ukraine's culture, history, and
+                geography, which allows us to create customized itineraries that
+                showcase the best of our beautiful country.
+              </p>
+            </div>
+            <div class="about-us-right">
+              <p>
+                We are committed to providing our clients with exceptional
+                customer service and support throughout their travels. Our team
+                is always available to assist you with any questions or concerns
+                you may have before, during, and after your trip.
+                <br />
+                <br />
+                Thank you for considering our travel agency for your travel
+                needs. We look forward to helping you plan an unforgettable
+                vacation in Ukraine or beyond!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section our-tours">
+        <div class="container our-tours-container">
+          <h2 class="section-header">Our Tours</h2>
+          <!--do we set default image width???-->
+          <ul class="tours-list">
+            <li class="tours-item">
+              <img
+                class="tours-image"
+                src="./images/our-tours-1.jpg"
+                width="704"
+                alt="Ancient house picture"
+              />
+              <button class="scroll-button tours">⟵</button>
+              <h4 class="tour-name">Lake Synevyr and Shipit waterfall</h4>
+              <div class="tour-agenda">
+                <ul class="tour-agenda-list">
+                  <!--agenda-->
+                  <li class="tour-agenda-item">
+                    Departure from Lviv (07:00) / Stryi (08:00)
+                  </li>
+                  <li class="tour-agenda-item">
+                    Pylypets (overview of Shipit waterfall and lunch)
+                  </li>
+                  <li class="tour-agenda-item">
+                    Synevyr Pass (photographing and viewing of Carpathian
+                    panoramas)
+                  </li>
+                  <li class="tour-agenda-item">
+                    "Synevyr" National Park (brown bear rehabilitation center
+                    and transition to the lake)
+                  </li>
+                  <li class="tour-agenda-item">
+                    Stryi (21:00)/Lviv (return by 22:00)
+                  </li>
+                </ul>
+              </div>
+              <div class="tour-included">
+                <p class="tour-included-subtitle">Included:</p>
+                <ul class="tour-included-list">
+                  <li class="tour-included-item">
+                    <!--do we need extra container i set around included-icon-container-->
+                    <div class="included-icon-container"></div>
+                    <p class="tour-included-text">Transfer</p>
+                  </li>
+                  <li class="tour-included-item">
+                    <!--do we need extra container around: included-icon-container-->
+                    <div class="included-icon-container"></div>
+                    <p class="tour-included-text">Travel insurance</p>
+                  </li>
+                  <li class="tour-included-item">
+                    <!--do we need extra container around: included-icon-container-->
+                    <div class="included-icon-container"></div>
+                    <p class="tour-included-text">Professional guide</p>
+                  </li>
+                  <li class="tour-included-item">
+                    <!--do we need extra container around: included-icon-container-->
+                    <div class="included-icon-container"></div>
+                    <p class="tour-included-text">Travel insurance</p>
+                  </li>
+                </ul>
+              </div>
+              <button class="tour-btn">Book</button>
+              <p class="tour-price">
+                Price
+                <span class="gryvnas-amt"> 2000 UAH </span>
+              </p>
+            </li>
+            <li class="tours-item">
+              <img
+                class="tours-image"
+                src="./images/our-tours-2.jpg"
+                width="704"
+                alt="Ancient house picture"
+              />
+              <button class="scroll-button tours">⟶</button>
+              <h4 class="tour-name">Ancient History & Vibrant Present</h4>
+              <div class="tour-agenda">
+                <ul class="tour-agenda-list">
+                  <li class="tour-agenda-item">Departure from Kiev (08:00)</li>
+                  <li class="tour-agenda-item">
+                    St. Sophia's Cathedral (iconic UNESCO World Heritage site)
+                  </li>
+                  <li class="tour-agenda-item">
+                    Golden Gate (historical monument visit)
+                  </li>
+                  <li class="tour-agenda-item">
+                    Bessarabsky Market (tasting local delicacies)
+                  </li>
+                  <li class="tour-agenda-item">
+                    Kiev Pechersk Lavra (exploration of the significant
+                    monastery)
+                  </li>
+                  <li class="tour-agenda-item">Return to Kiev by 20:00</li>
+                </ul>
+              </div>
+              <div class="tour-included">
+                <p class="tour-included-subtitle">Included:</p>
+                <ul class="tour-included-list">
+                  <li class="tour-included-item">
+                    <!--do we need extra container i set around included-icon-container-->
+                    <div class="included-icon-container"></div>
+                    <p class="tour-included-text">Transfer</p>
+                  </li>
+                  <li class="tour-included-item">
+                    <!--do we need extra container around: included-icon-container-->
+                    <div class="included-icon-container"></div>
+                    <p class="tour-included-text">Travel insurance</p>
+                  </li>
+                  <li class="tour-included-item">
+                    <!--do we need extra container around: included-icon-container-->
+                    <div class="included-icon-container"></div>
+                    <p class="tour-included-text">Professional guide</p>
+                  </li>
+                  <li class="tour-included-item">
+                    <!--do we need extra container around: included-icon-container-->
+                    <div class="included-icon-container"></div>
+                    <p class="tour-included-text">Travel insurance</p>
+                  </li>
+                </ul>
+              </div>
+              <button class="tour-btn">Book</button>
+              <p class="tour-price">
+                Price
+                <span class="gryvnas-amt"> 3000 UAH </span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section gallery">
+        <div class="container gallery-container">
+          <h2 class="section-header">Gallery</h2>
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img
+                class="gallery-image"
+                src="./images/gallery1.jpg"
+                width="400"
+                alt="Beautiful picture of Ukraine"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                class="gallery-image"
+                src="./images/gallery3.jpg"
+                width="400"
+                alt="Beautiful picture of Ukraine"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                class="gallery-image"
+                src="./images/gallery4.jpg"
+                width="400"
+                alt="Beautiful picture of Ukraine"
+              />
+            </li>
+          </ul>
+          <button class="scroll-button gallery">⟵</button>
+          <button class="scroll-button gallery">⟶</button>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container reviews-container">
+          <ul class="reviews-list">
+            <li class="reviews-item">
+              <div class="review-header">
+                <img class="review-image" src="#.img" alt="Dmitro picture" />
+                <p class="review-person-name">Dmitro</p>
+                <div class="rating"></div>
+              </div>
+              <p class="review-text">
+                It was an incredible trip and I am very grateful to the
+                organizers for the opportunity to learn more about our country
+              </p>
+            </li>
+            <li class="reviews-item">
+              <div class="review-header">
+                <img class="review-image" src="#.img" alt="Alisa picture" />
+                <p class="review-person-name">Alisa</p>
+                <div class="rating"></div>
+              </div>
+              <p class="review-text">
+                I really like to travel and try to do it as often as possible.
+                The last one was to Lake Synevir and it was very cool, a great
+                route, a comfortable bus, delicious food. I will definitely go
+                somewhere else with you
+              </p>
+            </li>
+            <li class="reviews-item">
+              <div class="review-header">
+                <img class="review-image" src="#.img" alt="Marry picture" />
+                <p class="review-person-name">Marry</p>
+                <div class="rating"></div>
+              </div>
+              <p class="review-text">
+                Great tour. I really liked the atmosphere, professional approach
+                and very interesting information
+              </p>
+            </li>
+            <li class="reviews-item">
+              <div class="review-header">
+                <img class="review-image" src="#.img" alt="Fedir picture" />
+                <p class="review-person-name">Fedir</p>
+                <div class="rating"></div>
+              </div>
+              <p class="review-text">
+                We traveled with a company and it was incredible, everyone
+                without exception was satisfied and we will definitely go
+                somewhere else with you and will recommend it to everyone
+              </p>
+            </li>
+          </ul>
+          <div class="scrolling-arrows">
+            <button class="scroll-button reviews">⟵</button>
+            <button class="scroll-button reviews">⟶</button>
+          </div>
+        </div>
+      </section>
+      <section class="section form">
+        <div class="container form-container">
+          <div class="form-description">
+            <h4 class="form-subtitle">Start Travel</h4>
+            <p class="form-description-text">
+              If you want to get an unforgettable trip, quickly fill out the
+              application and we will contact you during the day
+            </p>
+            <p class="form-description-text">
+              We are ready to answer any questions and help choose the best tour
+            </p>
+          </div>
+          <form action=""></form>
+        </div>
+      </section>
+      <footer class="section footer">
+        <div class="container footer-container">
+          <div class="top">
+            <div class="logo"></div>
+            <div>
+              <ul class="footer-menu-list">
+                <li class="footer-menu-item">
+                  <a class="footer-menu-link" href="#about-us">About us</a>
+                </li>
+                <li class="footer-menu-item">
+                  <a class="footer-menu-link" href="#tours">Tours</a>
+                </li>
+                <li class="footer-menu-item">
+                  <a class="footer-menu-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="footer-menu-item">
+                  <a class="footer-menu-link" href="#contacts">Contacts</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-contacts">
+              <ul class="footer-contacts-list">
+                <li class="footer-contancs-item">+38097-123-11-11</li>
+                <li class="footer-contancs-item">WondersOfUkraine@gmail.com</li>
+                <li class="footer-contancs-item">Lviv, Zaporyzhka, 198</li>
+              </ul>
+              <ul class="footer-social-list">
+                <li class="footer-social-item">
+                  <a class="footer-social-link" href=""> </a>
+                </li>
+                <li class="footer-social-item">
+                  <a class="footer-social-link" href=""> </a>
+                </li>
+                <li class="footer-social-item">
+                  <a class="footer-social-link" href=""> </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--need to wrap all right reserved into div?-->
+          <p class="copyrights">© All Rights Reserved</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
